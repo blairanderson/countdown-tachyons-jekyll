@@ -16,8 +16,9 @@ if you want a custom domain... https://help.github.com/articles/using-a-custom-d
 
 - [ ] TITLE / SUBTITLE
 - [ ] footer company name!
-- [ ] countdown timer date! 
+- [ ] countdown timer date!
 - [ ] background image?
+- [ ] subscription form!
 
 ## Copyright and License
 
