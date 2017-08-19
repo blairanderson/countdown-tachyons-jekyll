@@ -1,0 +1,44 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+
+blockquote {
+  @extend .athelas !optional;
+  @extend .ml0 !optional;
+  @extend .mt0 !optional;
+  @extend .pl4 !optional;
+  @extend .black-90 !optional;
+  @extend .bl !optional;
+  @extend .bw2 !optional;
+  @extend .b--blue !optional;
+}
+
+
+
+.post-body {
+  .highlight {
+    @extend .ma0 !optional;
+    overflow-y: scroll;
+  }
+
+  p {
+    @extend .f5 !optional;
+  }
+
+  h1, h2, h3,h4,h5,h6, p {
+    @extend .center !optional;
+    @extend .mw6 !optional;
+  }
+}

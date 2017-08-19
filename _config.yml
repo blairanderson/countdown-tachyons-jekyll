@@ -1,0 +1,37 @@
+# Site Information
+license:          "MIT"
+license-url:      "https://github.com/blairanderson/tachyonstemplates/blob/master/LICENSE"
+author:           "Tachyons Templates"
+title:            Countdown Template Responsive Free - Tachyons Theme
+google-analytics: "UA-61052500-15"
+google_site_verification: "RWU1gUAkLxAcOG2zAslE-2d-W4odFhYgixiHHZ4wZ4U"
+# Site Settings
+baseurl:          ""
+# Build settings
+exclude:          [
+  node_modules,
+  sass-cache,
+  _data,
+  _components,
+]
+whitelist:
+  - jekyll-redirect-from
+# Dependencies
+markdown:         kramdown
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+# highlighter:      rouge
+# Permalinks
+permalink:        pretty
+# Server
+url:              https://www.tachyonstemplates.com
+enforce_ssl:      www.tachyonstemplates.com
+encoding:         UTF-8
+host:             127.0.0.1
+port:             9001
+
+# Gems
+gems:
+  - jekyll-sitemap
+  - rouge

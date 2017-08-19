@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+
+<link rel="stylesheet" href="https://rawgit.com/richleland/pygments-css/master/default.css">
+<article class="mw7 ph3 pv2 center" itemscope itemtype="https://schema.org/BlogPosting">
+	<header>
+		<h1 itemprop="name headline" class="f2 tc lh-title sans-serif fw9 mb3 mt0 pt3 bt bw2">{{ page.title }}</h1>
+  </header>
+  <div class="post-body" itemprop="articleBody">
+		{{ content }}
+	</div>
+	<footer>
+		<div class="author black-50">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span>
+		</div>
+		<time class="f6 ttu tracked gray" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+	</footer>
+</article>
+
+<div class="cf bt b--light-blue ph3">
+	<div class="w-100 mw6 center">
+		{% if author.desc %}
+			<p>{{ author.desc }}</p>
+		{% endif  %}
+		<ul class="">
+			{% if author.url %}
+			<li><a href="{{ author.url }}">WEB@{{ author.url }}</a></li>
+			{% endif %}
+			{% if author.github %}
+			<li><a href="https://github.com/{{ author.github }}">GitHub@{{ author.github }}</a></li>
+			{% endif %}
+			{% if author.twitter %}
+			<li><a href="https://twitter.com/{{ author.twitter }}">Twitter@{{ author.twitter }}</a></li>
+			{% endif %}
+		</ul>
+	</div>
+</div>
