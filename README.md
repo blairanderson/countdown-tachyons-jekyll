@@ -4,10 +4,20 @@ Free to download, HTML starter template using [Tachyons Components](https://www.
 
 ## How to Launch
 
-- [ ] launch the site to `/someslug/`
-- [ ] toggle fullscreen - take a screenshot and save as `screenshot-raw.png`
-- [ ] run `convert screenshot-raw.png -resize 1024x768 -quality 95 -depth 8 screenshot.png` [stackoverflow.c/a/315...](https://stackoverflow.com/a/31540217/1536309)
-- [ ] `convert screenshot.png -resize 311x155 -quality 45 -depth 8 screenshot-tiny.png`
+### Clone the code
+
+`git clone git@github.com:blairanderson/countdown-tachyons-jekyll.git yoursite`
+
+### Custom Domain?
+
+if you want a custom domain... https://help.github.com/articles/using-a-custom-domain-with-github-pages/
+
+### UPDATE CONFIG CHECKLIST
+
+- [ ] TITLE / SUBTITLE
+- [ ] footer company name!
+- [ ] countdown timer date! 
+- [ ] background image?
 
 ## Copyright and License
 

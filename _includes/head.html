@@ -18,9 +18,9 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
     <!-- Feed -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.url }}">
     <!-- Fav Icon and Apple Touch Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicons/logo.png" />
     <meta name="application-name" content="&nbsp;" />
@@ -33,7 +33,7 @@
     <meta property="og:description" content="{{ page.meta-description }}">
     <meta property="og:image" content="/img/favicons/logo.png">
     <!-- Canonical -->
-    <link rel="canonical" href="{{site.url}}{{ page.url }}">
-    <meta property="og:url" content="{{site.url}}{{ page.url }}">
+    <link rel="canonical" href="{{site.url}}">
+    <meta property="og:url" content="{{site.url}}">
 
 </head>

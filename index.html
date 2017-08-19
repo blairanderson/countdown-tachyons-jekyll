@@ -11,15 +11,15 @@ meta-description: Free open-source Countdown template built responsive and fast 
 </style>
 
 <div class="sans-serif">
-  <div class="cover bg-center w-100 vh-100 dt" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/bg.jpg);">
+  <div class="cover bg-center w-100 vh-100 dt" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{site.url}}/img/bg.jpg);">
     <div class="dtc v-mid">
       <div class="tc">
         {% include social.html %}
         <small class="db tc white">powered by <a class="white" href="https://www.blairanderson.co/sharingbuttons/">SharingButtons</a></small>
       </div>
       <div class="tc ph3">
-        <div class="title f2 f-subheadline-l fw6 near-white mh0 mv4 lh-title">Tachyons Templates</div>
-        <h1 class="title f3 f2-l fw2 near-white mh0 mv4 ">Free Tachyons Themes and Templates</h1>
+        <div class="title f2 f-subheadline-l fw6 near-white mh0 mv4 lh-title">{{site.headline}}</div>
+        <h1 class="title f3 f2-l fw2 near-white mh0 mv4 ">{{site.subheadline}}</h1>
       </div>
       <div>{% include clock.html %}</div>
       <div>{% include form.html %}</div>
