@@ -10,20 +10,34 @@ meta-description: Free open-source Countdown template built responsive and fast 
   }
 </style>
 
-<div class="sans-serif">
-  <div class="cover bg-center w-100 vh-100 dt" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{site.url}}/img/bg.jpg);">
-    <div class="dtc v-mid">
-      <div class="tc">
-        {% include social.html %}
-        
-      </div>
-      <div class="tc ph3">
-        <div class="title f2 f-subheadline-l fw6 near-white mh0 mv4 lh-title">{{site.headline}}</div>
-        <h1 class="title f3 f2-l fw2 near-white mh0 mv4 ">{{site.subheadline}}</h1>
-      </div>
-      <div>{% include clock.html %}</div>
-      <div>{% include form.html %}</div>
-      <div>{% include footer.html %}</div>
+<div class="sans-serif cover bg-white w-100 vh-100 dt" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{site.url}}/img/bg.jpg);">
+  <div class="dtc v-mid">
+    <div class="tc">{% include social.html %}</div>
+    <div class="tc ph3">
+      <div class="title f2 f-subheadline-l fw6 near-white mh0 mv4 lh-title">{{site.headline}}</div>
+      <h1 class="title f3 f2-l fw2 near-white mh0 mv4 ">{{site.subheadline}}</h1>
+    </div>
+    <div>{% include clock.html %}</div>
+    <div>{% include form.html %}</div>
+    <div>{% include footer.html %}</div>
+  </div>
+</div>
+
+<!-- TODO: delete this section when you launch this website! -->
+<div class="w-100 vh-100 dt">
+  <div class="dtc v-mid">
+    <div class="ph3 measure-wide center">
+      <h3>Free Countdown Theme is responsive and fast!</h3>
+      <p>plenty of options to change:</p>
+      <ul>
+        <li>TITLE / SUBTITLE</li>
+        <li>footer company name!</li>
+        <li>countdown timer date!</li>
+        <li>countdown timer colors!</li>
+        <li>background image!</li>
+        <li>subscription form(keep or remove)!</li>
+      </ul>
+      <a href="https://github.com/blairanderson/countdown-tachyons-jekyll">Download this Template</a>
     </div>
   </div>
 </div>
