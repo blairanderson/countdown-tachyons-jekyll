@@ -2,6 +2,8 @@
 
 Free to download, HTML starter template using [Tachyons Components](https://www.tachyonstemplates.com/)
 
+[Download](https://www.tachyonstemplates.com/template-overviews/tachyons-countdown/)
+
 ## How to Launch
 
 ### Clone the code
